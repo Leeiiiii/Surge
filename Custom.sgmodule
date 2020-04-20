@@ -66,13 +66,13 @@ Driver.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent
 Mubu.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/mb.js,type=http-response,pattern=https:\/\/mubu\.com\/api\/app\/user\/info
 # > XMind思维导图 VIP
 XMind.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/XMind.js,type=http-response,pattern=https:\/\/www\.xmind\.cn\/\_res\/devices
-# 可可英语  VIP
+# 可可英语 VIP
 KKYY.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/kkyy.js,type=http-response,pattern=^https:\/\/mob2015\.kekenet\.com\/keke\/mobile\/index\.php
-# > PhotoShop
+# > PhotoShop Unlock
 Photoshop.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/photoshop.js,script-update-interval=0,type=http-response,pattern=^https:\/\/lcs-mobile-cops\.adobe\.io\/mobile_profile
-# > Pdfexpert
+# > Pdfexpert Unlock
 Pdfexpert.vip.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/Pdfexpert.vip.js,script-update-interval=0,type=http-response,pattern=^https:\/\/license\.pdfexpert\.com\/api\/.+\/subscription\/(refresh$|check$)
-# > Lightroom
+# > Lightroom  Unlock
 Lightroom.js = requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/Lightroom.js,script-update-interval=0,type=http-response,pattern=^https:\/\/photos\.adobe\.io\/v2\/accounts
 
 [MITM]
