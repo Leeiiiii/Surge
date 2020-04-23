@@ -1,6 +1,5 @@
 #!name=NoAds
 #!desc=Advertising Block & Hjjack
-#!system=ios
 
 [URL Rewrite]
 # > NOMO
