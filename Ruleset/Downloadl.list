@@ -3,7 +3,7 @@ USER-AGENT,%E8%BF%85%E9%9B%B7
 DOMAIN-SUFFIX,xunlei.com
 
 # > Download
-#PROCESS-NAME,aria2c
+PROCESS-NAME,aria2c
 PROCESS-NAME,fdm
 PROCESS-NAME,Folx
 PROCESS-NAME,NetTransport
@@ -37,9 +37,6 @@ DOMAIN-SUFFIX,redacted.ch
 DOMAIN-SUFFIX,springsunday.net
 DOMAIN-SUFFIX,tjupt.org
 DOMAIN-SUFFIX,totheglory.im
-
 DOMAIN-KEYWORD,announce
 DOMAIN-KEYWORD,torrent
 DOMAIN-KEYWORD,tracker
-DOMAIN-SUFFIX,smtp
-URL-REGEX,(Subject|HELO|SMTP)
