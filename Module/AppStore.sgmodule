@@ -4,5 +4,5 @@
 [URL Rewrite]
 https://apps.apple.com/us/ https://apps.apple.com/cn/ 307
 
-[MITM]
-hostname = %APPEND% apps.apple.com
+#[MITM]
+#hostname = %APPEND% apps.apple.com
