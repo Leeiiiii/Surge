@@ -1,10 +1,10 @@
 #!name=
 #!desc=
-#!system=ios
+#!system=
 
 [Rule]
 
 [Script]
 
 [MITM]
-hostname = %APPEND% api.zhihu.com, www.zhihu.com
+hostname = %APPEND% 
