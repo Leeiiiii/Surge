@@ -1,8 +1,8 @@
 #!name=AppStore
-#!desc=Rewrite AppStore US to CN
+#!desc=Redirect AppStore US to CN
 
 [URL Rewrite]
-(?<=_region=)us(?=&) cn 307
+https://apps.apple.com/us/ https://apps.apple.com/cn/ 307
 
 [MITM]
 hostname = %APPEND% apps.apple.com
