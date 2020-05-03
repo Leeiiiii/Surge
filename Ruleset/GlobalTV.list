@@ -176,11 +176,3 @@ DOMAIN-KEYWORD,youtube
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,youtu.be
-# > TikTok
-USER-AGENT,TikTok*
-DOMAIN-SUFFIX,isnssdk.com
-DOMAIN-SUFFIX,muscdn.com
-DOMAIN-SUFFIX,musical.ly
-DOMAIN-SUFFIX,tiktokv.com
-DOMAIN-SUFFIX,tiktokcdn.com
-DOMAIN-KEYWORD,-tiktokcdn-com
