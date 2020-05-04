@@ -1,8 +1,17 @@
-# Bitcoin exchange
+# Okex
 DOMAIN-SUFFIX,okex.com
-DOMAIN,binance.zendesk.com
-DOMAIN-SUFFIX,bnbstatic.com
-DOMAIN-SUFFIX,binance.com
+AND,((DOMAIN-KEYWORD,okex), (DOMAIN-SUFFIX,zendesk.com))
+# Huobi
 DOMAIN-SUFFIX,huobi.com
 DOMAIN-SUFFIX,hbg.com
-DOMAIN-KEYWORD,api.huobi.io
+DOMAIN-SUFFIX,huobi.io
+AND,((DOMAIN-KEYWORD,huobi), (DOMAIN-SUFFIX,zendesk.com))
+# 58Coin
+DOMAIN-SUFFIX,58coin.pro
+DOMAIN-SUFFIX,58ex.com
+AND,((DOMAIN-KEYWORD,58coin), (DOMAIN-SUFFIX,zendesk.com))
+# Binance
+DOMAIN-SUFFIX,binancezh.com
+DOMAIN-SUFFIX,bnbstatic.com
+DOMAIN-SUFFIX,binance.com
+AND,((DOMAIN-KEYWORD,binance), (DOMAIN-SUFFIX,zendesk.com))
