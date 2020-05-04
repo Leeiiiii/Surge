@@ -1,3 +1,11 @@
+# > TikTok
+USER-AGENT,TikTok*
+DOMAIN-SUFFIX,isnssdk.com
+DOMAIN-SUFFIX,muscdn.com
+DOMAIN-SUFFIX,musical.ly
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-KEYWORD,-tiktokcdn-com
 # > Bilibili
 USER-AGENT,bili*
 USER-AGENT,Bilibili*
