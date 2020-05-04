@@ -11,6 +11,7 @@ DOMAIN-SUFFIX,58coin.pro
 DOMAIN-SUFFIX,58ex.com
 AND,((DOMAIN-KEYWORD,58coin), (DOMAIN-SUFFIX,zendesk.com))
 # Binance
+DOMAIN-KEYWORD,binance
 DOMAIN-SUFFIX,binancezh.com
 DOMAIN-SUFFIX,bnbstatic.com
 DOMAIN-SUFFIX,binance.com
