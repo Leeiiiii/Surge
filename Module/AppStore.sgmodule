@@ -1,5 +1,0 @@
-#!name=AppStore
-#!desc=Redirect AppStore US to CN
-
-[URL Rewrite]
-https://apps.apple.com/us/ https://apps.apple.com/cn/ 307

@@ -16,13 +16,12 @@
 # 手机浏览器访问并登录下https://film.qq.com/,随便选 1 部电影观看
 腾讯视频获取.js = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.cookie.js,type=http-request,pattern=^https:\/\/access.video.qq.com\/user\/auth_refresh
 # > 中国电信
-中国电信获取.js = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.cookie.js,type=http-request,pattern=^https:\/\/wapside.189.cn:9001\/api\/home\/homeInfo
-中国电信获取.js = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.cookie.js,requires-body=true,type=http-response,pattern=^https:\/\/wapside.189.cn:9001\/api\/home\/homeInfo
+中国电信获取.js = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.cookie.js,requires-body=true,type=http-response,pattern=^https:\/\/wapside.189.cn:9001\/api\/home\/sign
 # > 中国联通
 # 打开 APP , 进入签到页面, 系统提示: `获取刷新链接: 成功`,然后手动签到 1 次
 # 首页>天天抽奖, 系统提示 `2` 次: `获取Cookie: 成功 (登录抽奖)` 和 `获取Cookie: 成功 (抽奖次数)`
 中国联通获取.js = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js,type=http-request,pattern=^https:\/\/act.10010.com\/SigninApp\/signin\/querySigninActivity.htm
-中国联通获取.js = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js,type=http-request,pattern=^https:\/\/act.10010.com\/SigninApp(.*?)\/signin\/daySign.do
+中国联通获取.js = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js,type=http-request,pattern=^^https:\/\/act.10010.com\/SigninApp(.*?)\/signin\/daySign
 中国联通获取.js = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10010/10010.cookie.js,type=http-request,pattern=^https:\/\/m.client.10010.com\/dailylottery\/static\/(textdl\/userLogin|active\/findActivityInfo)
 # > 美团外卖
 美团外卖获取.js = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/wmmeituan/wmmeituan.cookie.js,type=http-request,pattern=^https:\/\/promotion.waimai.meituan.com\/playcenter\/signIn\/entry
@@ -32,4 +31,4 @@
 饿了么获取.js = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/elemGetCookies.js,type=http-request,pattern=^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$
 
 [MITM]
-hostname = %APPEND% api.m.jd.com,c.tieba.baidu.com,*.iqiyi.com,*.video.qq.com, wapside.189.cn:9001, sf-integral-sign-in.weixinjia.net, h5.ele.me,api-takumi.mihoyo.com, act.10010.com, e.189.cn,  www.maomicd.com, wx.10086.cn, mtrace.qq.com, promotion.waimai.meituan.com, i.meituan.com,ms.jr.jd.com,node.kg.qq.com,,m.client.10010.com,iphone.myzaker.com,tieba.baidu.com,api.inews.qq.com
+hostname = %APPEND% api.m.jd.com,c.tieba.baidu.com,*.iqiyi.com,*.video.qq.com,wapside.189.cn:9001, sf-integral-sign-in.weixinjia.net,h5.ele.me,api-takumi.mihoyo.com,act.10010.com,e.189.cn,wx.10086.cn, mtrace.qq.com,promotion.waimai.meituan.com,i.meituan.com,ms.jr.jd.com,node.kg.qq.com,m.client.10010.com,iphone.myzaker.com,tieba.baidu.com,api.inews.qq.com
