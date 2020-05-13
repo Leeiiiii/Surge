@@ -16,6 +16,14 @@ DOMAIN,updates-http.cdn-apple.com
 DOMAIN-SUFFIX,ls.apple.com
 DOMAIN-SUFFIX,mzstatic.com
 
+# > Steam
+USER-AGENT,Steam*
+DOMAIN-SUFFIX,pinyuncloud.com
+DOMAIN-SUFFIX,steamcontent.com
+
+# > UUBooster
+PROCESS-NAME,UUBooster
+
 # > Xunlei
 USER-AGENT,%E8%BF%85%E9%9B%B7
 DOMAIN-SUFFIX,xunlei.com
