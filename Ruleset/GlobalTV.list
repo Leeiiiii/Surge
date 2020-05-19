@@ -1,5 +1,6 @@
 # > Google Drive
 DOMAIN-SUFFIX,drive.google.com
+DOMAIN-SUFFIX,googleusercontent.com
 
 # > ABC
 DOMAIN-SUFFIX,edgedatg.com
