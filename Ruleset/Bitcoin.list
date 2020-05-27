@@ -7,9 +7,9 @@ DOMAIN-SUFFIX,hbg.com
 DOMAIN-SUFFIX,huobi.io
 AND,((DOMAIN-KEYWORD,huobi), (DOMAIN-SUFFIX,zendesk.com))
 # 58Coin
-DOMAIN-SUFFIX,58coin.pro
-DOMAIN-SUFFIX,58ex.com
-AND,((DOMAIN-KEYWORD,58coin), (DOMAIN-SUFFIX,zendesk.com))
+# DOMAIN-SUFFIX,58coin.pro
+# DOMAIN-SUFFIX,58ex.com
+# AND,((DOMAIN-KEYWORD,58coin), (DOMAIN-SUFFIX,zendesk.com))
 # Binance
 DOMAIN-KEYWORD,binance
 DOMAIN-SUFFIX,binancezh.com
