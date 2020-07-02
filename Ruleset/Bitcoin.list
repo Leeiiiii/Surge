@@ -1,3 +1,6 @@
+# Bybit
+DOMAIN-SUFFIX,bybit.com
+AND,((DOMAIN-KEYWORD,bybit), (DOMAIN-SUFFIX,zendesk.com))
 # Okex
 DOMAIN-SUFFIX,okex.com
 AND,((DOMAIN-KEYWORD,okex), (DOMAIN-SUFFIX,zendesk.com))
